@@ -58,13 +58,13 @@ body{
 	font-size: 20px;
 }
 
-textarea{
+/* textarea{
 	max-width: 300px;
 	min-width: 300px;
 	max-height: 100px;
 	min-height: 50px;
 	padding: 10px 0 0 35px ;
-}
+} */
 
 .button button{
 	width: 300px;
@@ -80,9 +80,8 @@ textarea{
 }
 
 .table{
-	margin-right: 20px;
+	padding: 0 20px;
 }
-
 
 .table table, tr, th, td{
 	border: 1px solid #fff;
@@ -129,6 +128,11 @@ textarea{
 		margin-bottom: 20px;
 	}
 
+	
+.input-box select{
+	padding: 0 35px;
+}
+
 	.table{
 		padding: 0 20px;
 	}
@@ -139,7 +143,8 @@ textarea{
 	font-weight: 100;
 	}
 
-	.table th{
+	.table th, td{
 	font-size: 16px;
+	font-weight: 100;
 	}
 }
